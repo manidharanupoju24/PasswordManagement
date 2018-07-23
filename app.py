@@ -51,4 +51,5 @@ def prompt_delete_password():
     database.delete_password(application_to_be_deleted)
 
 
-menu()
+if __name__ == '__main__':
+    menu()
